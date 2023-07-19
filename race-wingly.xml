@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Wingly</name>
+        <description>Wingly</description>
+        <author>Solvernia</author>
+        <update version="0.0.3">
+            <file name="race-wingly.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/unearthed-arcana/planeshift/ixalan/race-siren.xml" />
+        </update>
+    </info>
+    
+    <element name="Wingly" type="Race" source="Solvernia" id="ID_WOCT_PSI_RACE_WINGLY">
+        <description>
+            <p> There was a winged species living on the Continent. Legend says that they once ruled the world.  </p>
+            <h4>PHYSICAL DESCRIPTION</h4>
+            <p>Winglies appear to be humans with platinum hair, pale skin and a pair of white feathered wings.</p>
+            <h4>INTELLIGENT COMBATANTS</h4>
+            <p>In combat, winglies prefer to stay back and fire their bows (or use spells if they have them) but will engage in melee combat without hesitation when they have no other option, such as when they use all their arrows (or spell slots). They prefer to fight face-to-face with their superior speed rather than utilizing their flight capability. The only time they will use their flight in combat is when they are losing, then they will either use the third dimension to provide an attacking advantage, or they will use it to escape, depending on how hopeless the battle seems.</p>
+            <p>Winglies are by no means stupid. They will try to escape if necessary. If a wingly has any magical items, she will use them to their full extent against her opponents.</p>
+            <h4>HIDDEN SOCIETY</h4>
+            <p>Wingly society is centered around magic. Wingly cities float in the air and they are hidden in forested areas. They have protected the locations of the entrances by magical portals that are known only to and can be detected or activated only by a wingly. No wingly will ever betray the location or bring anyone of another race to the cities for any reason short of mass extinction of the winglies.</p>
+            <p>Winglies have developed a mode of magical transportation using a series of "teleportation rings" that allow them to transport from their hidden home to their original home city. Their original home is a large floating city in ruins where constructs enforce the laws for wingly-kind.</p>
+            <p>Winglies have an innate hatred of other races, especially humans. This is because they had a war long ago with humans that caused their original home to be in its current state. As a byproduct of the war, a nearby place was distorted by the magical forces used against each other. This place is known as the Valley of Corrupted Gravity and is sealed by a giant mechanism and magic. The location is known only to the descendants of the Royal Families of the winglies and the humans who fought in the war.</p>
+            <h4>WINGLY NAMES</h4>
+            <p>As a race surrounded by magic, winglies tend to give their children names that have a mystical quality or sound.</p>
+            <p class="indent"><b><i>Male. </i></b> Bardel, Blano, Faust, Guaraha, Lloyd, Melbu, Savan.</p>
+            <p class="indent"><b><i>Female. </i></b> Caron, Charle, Lenus, Meru, Miata, Ulara.</p>
+            <h4>WINGLY TRAITS</h4>
+            <p>Winglies are known by their platinum hair and abilities of flight and teleportation.</p>
+            <p class="indent"><b><i>Ability Score Increase. </i></b> Your Dexterity score increases by 2 and your Intelligence score increases by 1.</p>
+            <p class="indent"><b><i>Age. </i></b> Winglies mature at the same rate as humans and live to be about 1,000 years old.</p>
+            <p class="indent"><b><i>Alignment. </i></b> Winglies have their own sense of honor but don't lean toward any moral code of good or evil. They tend to be lawful neutral.</p>
+            <p class="indent"><b><i>Size. </i></b> Winglies are the same height as humans but slightly lighter. Your size is Medium.</p>
+            <p class="indent"><b><i>Speed. </i></b> Your base walking speed is 30 feet. You also have a pair of wings that you can manifest that give you a flying speed of 60 feet.</p>
+            <p class="indent"><b><i>Languages. </i></b> You can speak, read and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic.</p>
+            <p class="indent"><b><i>Superior Darkvision. </i></b> You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+            <p class="indent"><b><i>Limited Armor. </i></b> Winglies cannot use their flying speed while wearing armor.</p>
+            <p class="indent"><b><i>Teleportation. </i></b> Winglies have the innate ability to instantly teleport and will use this ability to escape from a losing battle. As an action, you magically teleport up to 30 feet to an unoccupied space that you can see. This trait does not provoke opportunity attacks. You can use this feature a number of times equal to your proficiency bonus, regaining use after you finish a long rest.</p>
+            <p class="indent"><b><i>Wing Shift. </i></b>  Winglies can magically hide their wings to appear human as a bonus action. While their wings are hidden, winglies cannot fly and must use a bonus action to have their wings reappear.</p>
+            <p class="indent"><b><i>Keen Senses. </i></b> Winglies are always aware of their surroundings. You have proficiency in the Perception skill.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="2" />
+            <stat name="intelligence" value="1" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+            <grant type="Racial Trait" id="ID_SOLVERNIA_RACIAL_TRAIT_WINGLY_SPEED" />
+            <grant type="Racial Trait" id="ID_SOLVERNIA_RACIAL_KEEN_SENSES" />
+            <grant type="Racial Trait" id="ID_SOLVERNIA_RACIAL_SUPERIOR_DARK_VISION" />
+            <grant type="Racial Trait" id="ID_SOLVERNIA_RACIAL_TELEPORTATION" />
+            <grant type="Racial Trait" id="ID_SOLVERNIA_RACIAL_WING_SHIFT" />
+        </rules>
+    </element>
+    <element name="Flight Speed" type="Racial Trait" source="Dragoon" id="ID_SOLVERNIA_RACIAL_TRAIT_WINGLY_SPEED">
+		<description>
+			<p>Your base walking speed is 30 feet. You also have a pair of wings that you can manifest that give you a flying speed of 60 feet.</p>
+		</description>
+		<sheet>
+			<description>Your base walking speed is 30 feet. You also have a pair of wings that you can manifest that give you a flying speed of 60 feet.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:fly" value="60" bonus="base" equipped="![armor:medium],![armor:heavy],![armor:light]" />
+		</rules>
+	</element>
+    <element name="Keen Senses" type="Racial Trait" source="Dragoon" id="ID_SOLVERNIA_RACIAL_KEEN_SENSES">
+		<description>
+			<p>Winglies are always aware of their surroundings. You have proficiency in the Perception skill.</p>
+		</description>
+		<sheet>
+			<description>Winglies are always aware of their surroundings. You have proficiency in the Perception skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" name="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+    <element name="Superior Darkvision" type="Racial Trait" source="Dragoon" id="ID_SOLVERNIA_RACIAL_SUPERIOR_DARK_VISION">
+        <description>
+            <p>You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
+        </description>
+        <sheet>
+            <description>You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</description>
+        </sheet>
+        <rules>
+            <grant type="Vision" name="ID_VISION_SUPERIORDARKVISION" />
+        </rules>
+    </element>
+    <element name="Teleportation" type="Racial Trait" source="Dragoon" id="ID_SOLVERNIA_RACIAL_TELEPORTATION">
+        <description>
+            <p>Winglies have the innate ability to instantly teleport and will use this ability to escape from a losing battle. As an action, you magically teleport up to 30 feet to an unoccupied space that you can see. This trait does not provoke opportunity attacks. You can use this feature a number of times equal to your proficiency bonus, regaining use after you finish a long rest.</p>
+        </description>
+        <sheet>
+            <description>Winglies have the innate ability to instantly teleport and will use this ability to escape from a losing battle. As an action, you magically teleport up to 30 feet to an unoccupied space that you can see. This trait does not provoke opportunity attacks. You can use this feature a number of times equal to your proficiency bonus, regaining use after you finish a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Wing Shift" type="Racial Trait" source="Dragoon" id="ID_SOLVERNIA_RACIAL_WING_SHIFT">
+        <description>
+            <p>Winglies can magically hide their wings to appear human as a bonus action. While their wings are hidden, winglies cannot fly and must use a bonus action to have their wings reappear.</p>
+        </description>
+        <sheet>
+            <description>Winglies can magically hide their wings to appear human as a bonus action. While their wings are hidden, winglies cannot fly and must use a bonus action to have their wings reappear.</description>
+        </sheet>
+    </element>
+</elements>

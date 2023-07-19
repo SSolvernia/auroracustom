@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Dragoon</name>
+		<description>A legend of dragoon class</description>
+		<author url="">Solvernia</author>
+		<update version="0.0.8">
+			<file name="Dragoon.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/dragoon.xml" />
+		</update>
+	</info>
+	
+	<element name="Unearthed Arcana: Dragoon Custom Class" type="Dragoon" source="Solvernia_Custom_Class" id="ID_SOLVERNIA_DRAGOON">
+		<description>
+			<p>a</p>
+		</description>
+		<setters>
+			<set name="abbreviation">UA20170313</set>
+			<set name="url">a</set>
+			<set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Solvernia</set>
+			<set name="official">true</set>
+			<set name="playtest">true</set>
+			<set name="information">La wea fome</set>
+			<set name="release">20230730</set>
+		</setters>
+	</element>
+	<!-- Dragoon Class -->
+	<element name="Dragoon" type="Class" source="Dragoon" id="ID_WOTC_UA20170313_CLASS_DRAGOON">
+		<description>
+			<p>An amber stone sits in a basket of other trinkets at a bazaar, a seemingly worthless rock amongst pottery and jewelry, but as the goliath passes, it sparks to life in a brilliant flash. The stall owner started jumping with glee as he tries to sell the now magical stone, but it only seems to spring to life for the huge man.</p>
+			<p class="indent">An elven soldier defies the imaginable, and slays the dragon plaguing his nation. Tired and hungry, the man lifts his spear to return home, but the voice of the dragon calls out to him, and a green stone drifts into his hands.</p>
+			<p class="indent">A human in the midst of war and battle fights for his life. Constantly battered and bruised, he fears the end is near, but just as he is cut down, his father's old pendant springs to life and in a blaze enveloping his body, emerges donning striking red armor and wide spread wings.</p>
+			<p class="indent">All of these people have been chosen as part of their destiny to be a dragoon. They will become the weapons of fate, slated to serve a greater cosmic plan. They are soldiers and embrace combat to the end with a prowess for almost dance-like fighting skills that lead to the build of their fighting spirit in a display of massive power. Dragoons may just be as old as the dragons themselves, though how they came to be is a mystery.</p>
+			<h4>KNIGHTS OF DESTINY</h4>
+			<p>Dragoons are chosen by fate, and not by the wielders of the power. The soul of the dragon accepts their wielder as their master with or without their consent. Dragoons seem to be drawn to each other, to fulfill whatever purpose they are needed for.</p>
+			<h4>SPIRIT IN INSANITY</h4>
+			<p>A dragoon is a weapon. The only way for a mortal to harness the energy of a dragoon is to raise their spirit into a form of battle insanity that they channel through manifesting magical armor and abilities. Regardless of the user's profession of life before they became a dragoon, they are now and forever will be combatants for fate.</p>
+			<h5>Dragoon level table</h5>
+			<p>Considerer the next table of the dragoon bonuses</p>
+			<h5>Dragoon</h5>
+			<table>
+				<thead>
+					<tr><td>Level</td><td>Proficiency Bonus</td><td>Features</td><td>Maximum Spirit</td></tr>
+				</thead>
+				<tr><td>1st</td><td>+2</td><td>Fighting Style</td><td>5</td></tr>
+                <tr><td>2nd</td><td>+2</td><td>Spirit, Guard</td><td>5</td></tr>
+                <tr><td>3rd</td><td>+2</td><td>Dragoon Form, Dragoon Spirit</td><td>5</td></tr>
+                <tr><td>4th</td><td>+2</td><td>Ability Score Improvement</td><td>5</td></tr>
+                <tr><td>5th</td><td>+3</td><td>Addition</td><td>10</td></tr>
+                <tr><td>6th</td><td>+3</td><td>Draconic Connection</td><td>10</td></tr>
+                <tr><td>7th</td><td>+3</td><td>Dragoon Spirit Improvement</td><td>10</td></tr>
+                <tr><td>8th</td><td>+3</td><td>Ability Score Improvement</td><td>10</td></tr>
+                <tr><td>9th</td><td>+4</td><td>Fighting Style Upgrade</td><td>10</td></tr>
+                <tr><td>10th</td><td>+4</td><td>Dragoon Spirit Improvement</td><td>15</td></tr>
+                <tr><td>11th</td><td>+4</td><td>Addition (2)</td><td>15</td></tr>
+                <tr><td>12th</td><td>+4</td><td>Ability Score Improvement</td><td>15</td></tr>
+                <tr><td>13th</td><td>+4</td><td>Magic Guard</td><td>15</td></tr>
+                <tr><td>14th</td><td>+5</td><td>Dragoon Addition</td><td>15</td></tr>
+                <tr><td>15th</td><td>+5</td><td>Dragoon Spirit Improvement</td><td>20</td></tr>
+                <tr><td>16th</td><td>+5</td><td>Ability Score Improvement</td><td>20</td></tr>
+                <tr><td>17th</td><td>+6</td><td>Addition Plus</td><td>20</td></tr>
+                <tr><td>18th</td><td>+6</td><td>Dragoon Spirit Improvement</td><td>20</td></tr>
+                <tr><td>19th</td><td>+6</td><td>Ability Score Improvement</td><td>20</td></tr>
+                <tr><td>20th</td><td>+6</td><td>Divine Dragon Spirit</td><td>25</td></tr>
+			</table>         
+			<h4>CREATING A DRAGOON</h4>
+			<p>When creating a dragoon, your character's backstory is paramount. Dragoons are soldiers of fate, and combat runs through their blood. They exist solely to be the will of destiny and are bound by its chains. How did they learn basic combat? Were they soldiers, taught for war? Taught through necessity in horrible conditions? How your character learned to fight goes a long way to figuring out how your character came into being a dragoon.</p>
+			<p class="indent">Having possession of a dragoon spirit is no easy feat. Think about how your character could have obtained this, either prior to its activation or even after knowing what it is. Was the spirit a family heirloom in a pendant? Were they privy to a moment that a dragon was slain and they were chosen by the dragon's soul? Did they end a wicked dragoon's reign - or did they pry it from the rigteous' cold, dead hand.</p>
+			<h5>QUICK BUILD</h5>
+			<p>You can make a dragoon quick by following these suggestions. First, make Strength or Dexterity your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Wisdom. Second, choose the soldier background.</p>
+			<h3>CLASS FEATURES</h3>
+			<p>As a dragoon, you gain the following class features</p>
+			<h5>HIT POINTS</h5>
+			<p>
+			<span class="emphasis">Hit Dice:</span>1d10 per dragoon level<br/>
+			<span class="emphasis">Hit Points at 1st Level:</span>10 + your Constitution modifier<br/>
+			<span class="emphasis">Hit Points at Higher Levels:</span>1d10 (or 6) + your Constitution modifier per dragoon level after 1st<br/>
+			</p>
+			<h5>PROFICIENCIES</h5>
+			<p>
+				<b>Armor:</b> All armor, shields<br/>
+				<b>Weapons:</b> Simple weapons, martial weapons<br/>
+				<b>Tools:</b> None<br/>
+				<b>Saving Throws:</b> Strength, Dexterity<br/>
+				<b>Skills:</b> Choose two from Arcana, Acrobatics, Animal Handling, Athletics, History, Insight, Perception, Persuation, and Survival<br/>
+			</p>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li><i>(a)</i> Scale Mail or <i>(b)</i> leather armor, Longbow, and 20 Arrows</li>
+				<li><i>(a)</i> a martial weapon and a Shield or <i>(b)</i> two martial Weapons</li>
+				<li><i>(a)</i> five javelins or <i>(b)</i> any simple weapon</li>
+				<li><i>(a)</i> a Dungeoneer's Pack or <i>(b)</i> an explorer's pack</li>
+			</ul>
+			<div element="ID_SOLVERNIA_CLASS_FEATURE_Fighting_Style" />
+			<div element="ID_SOLVERNIA_CLASS_FEATURE_Guard" />
+			<div element="ID_SOLVERNIA_CLASS_FEATURE_Dragoon_Spirit" />
+			<div element="ID_SOLVERNIA_CLASS_FEATURE_Spirit" />
+			<div element="ID_SOLVERNIA_CLASS_FEATURE_Dragoon_Form" />
+			<div element="ID_SOLVERNIA_CLASS_FEATURE_Dragoon_Gem_Spirit" />
+			<div element="ID_SOLVERNIA_CLASS_FEATURE_Ability_Score_Improvement" />
+			<div element="ID_SOLVERNIA_CLASS_FEATURE_Addition" />
+			<div element="ID_SOLVERNIA_CLASS_FEATURE_Dragonic Connection" />
+			<div element="ID_SOLVERNIA_CLASS_FEATURE_Magic Guard" />
+			<div element="ID_SOLVERNIA_CLASS_FEATURE_Dragoon Addition" />
+			<div element="ID_SOLVERNIA_CLASS_FEATURE_Addition Plus" />
+			<div element="ID_SOLVERNIA_ARCHETYPE_Red_Eyed_Dragon" />
+			<div element="ID_SOLVERNIA_ARCHETYPE_Jade_Dragon" />
+			<div element="ID_SOLVERNIA_ARCHETYPE_White_Silver_Dragon" />
+			<div element="ID_SOLVERNIA_ARCHETYPE_Dark_Dragon" />
+			<div element="ID_SOLVERNIA_ARCHETYPE_Violet_Dragon" />
+			<div element="ID_SOLVERNIA_ARCHETYPE_Blue_Sea_Dragon" />
+			<div element="ID_SOLVERNIA_ARCHETYPE_Golden_Dragon" />
+			<div element="ID_SOLVERNIA_CLASS_FEATURE_Divine Dragoon Spirit" />
+		</description>
+		<sheet display="false">
+			<description>Legend of dragoon inspired</description>
+		</sheet>
+		<setters>
+			<set name="short">Legend of dragoon inspired</set>
+			<set name="hd">d10</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id= "ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+			<grant type="Proficiency" id= "ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+			<grant type="Class Feature" id="ID_SOLVERNIA_CLASS_FEATURE_Spirit" level="2" />
+			<grant type="Class Feature" id="ID_SOLVERNIA_CLASS_FEATURE_Guard" level="2" />
+			<grant type="Class Feature" id="ID_SOLVERNIA_CLASS_FEATURE_Dragoon_Gem_Spirit" level="3" />
+			<grant type="Class Feature" id="ID_SOLVERNIA_CLASS_FEATURE_Fighting_Style" level="1" />
+			<grant type="Class Feature" id="ID_SOLVERNIA_CLASS_FEATURE_Dragoon_Form" level="3" spellcasting="Dragoon" />
+			<grant type="Class Feature" id="ID_SOLVERNIA_CLASS_FEATURE_Ability_Score_Improvement" level="4" />
+			<grant type="Class Feature" id="ID_SOLVERNIA_CLASS_FEATURE_Addition" level="5" />
+			<grant type="Class Feature" id="ID_SOLVERNIA_CLASS_FEATURE_Dragonic Connection" level="6" />
+			<grant type="Class Feature" id="ID_SOLVERNIA_CLASS_FEATURE_Magic Guard" level="13" />
+			<grant type="Class Feature" id="ID_SOLVERNIA_CLASS_FEATURE_Dragoon Addition" level="14" />
+			<grant type="Class Feature" id="ID_SOLVERNIA_CLASS_FEATURE_Addition Plus" level="17" />
+			<grant type="Class Feature" id="ID_SOLVERNIA_CLASS_FEATURE_Divine Dragoon Spirit" level="20" />
+			<grant type="Class Feature" id="ID_SOLVERNIA_DRAGOON_ABILITYSCOREIMPROVEMENT" level="4" />
+			<stat name="constitution" value="1" />
+			<stat name="constitution:max" value="10" />
+			<select type="Proficiency" name="Skill Proficiency (Dragoon)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" />
+		</rules>
+	</element>
+
+	<!-- Dragoon Class Features -->
+
+    <element name="Fighting Style" type="Class Feature" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Fighting_Style">
+		<description>
+			<p>You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>
+			<h5>ARCHERY</h5>
+			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
+			<h5>DUELING</h5>
+			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+			<h5>GREAT WEAPON FIGHTING</h5>
+			<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p>
+			<h5>TWO-WEAPON FIGHTING</h5>
+			<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+			<h5>BRAWLING</h5>
+			<p>You gain the following benefits while you are unarmed:</p>
+			<ul>
+                <li>You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes.</li>
+                <li>You can roll a d4 in place of the normal damage of your unarmed strike.</li>
+                <li>When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action</li>
+            </ul>
+		</description>
+        <sheet>
+            <description>
+				You adopt a particular style of fighting as your specialty.
+			</description>
+        </sheet>
+		<rules>
+			<select type="Archetype" name="Fighting Style" supports="Dragoon Fighting" />
+		</rules>
+    </element>
+	<element name="Dragoon Gem Spirit" type="Class Feature" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Dragoon_Gem_Spirit">
+		<description>
+			<p>Every dragoon spirit is the soul of a departed dragon that lends its power to a worthy user.</p>
+			<h5>Casting Spells</h5>
+			<p>Dragoon spells bestowed by the dragon soul are themed by their element. Casting a leveled spell is done by spending spirit points while in Dragoon Form. If a spell allows you to cast it at a higher level, you may spend spirit points as if you were casting a higher level spell.</p>
+			<p class="indent">Wisdom is your spellcasting ability for your dragoon spells, since your magic is born from your inner strength to evoke the dragon's power. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a dragoon spell you cast and when making an attack roll with one.</p>
+		</description>
+		<sheet>
+			<description>Every dragoon spirit is the soul of a departed dragon that lends its power to a worthy user. The soul of the dragon bestows different abilities depending on the type of dragon.</description>
+		</sheet>
+
+		<spellcasting name="Dragoon" ability="Wisdom" allowReplace="true">
+			<list>Dragoon</list>
+		</spellcasting>
+		<rules>
+			<select type="Archetype" name="Dragoon Gem Spirit" supports="Dragoon Gem" />
+		</rules>
+	</element>
+
+	<element name="Ability Score Improvement" type="Class Feature" source="Dragoon" id="ID_SOLVERNIA_DRAGOON_ABILITYSCOREIMPROVEMENT">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Dragoon 4)" supports="Improvement Option,Dragoon,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Dragoon 8)" supports="Improvement Option,Dragoon,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Dragoon 12)" supports="Improvement Option,Dragoon,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Dragoon 16)" supports="Improvement Option,Dragoon,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Dragoon 19)" supports="Improvement Option,Dragoon,19" level="19" />
+		</rules>
+	</element>
+
+	<!-- Fighting Skills -->
+
+	<element name="Archery" type="Archetype" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Archery">
+	<supports>Dragoon Fighting</supports>
+		<description>
+			<p>You gain a +2 bonus to attack rolls you make with ranged weapons</p>
+		</description>
+		<sheet>
+			<description>You gain a +2 bonus to attack rolls you make with ranged weapons.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Archery Upgrade" level="9" />
+		</rules>
+	</element>
+	<element name="Dueling" type="Archetype" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Dueling">
+	<supports>Dragoon Fighting</supports>
+		<description>
+			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+		</description>
+		<sheet>
+			<description>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Dueling Upgrade" level="9" />
+		</rules>
+	</element>
+	<element name="Great Weapon Fighting" type="Archetype" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Great Weapon Fighting">
+	<supports>Dragoon Fighting</supports>
+		<description>
+			<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</p>
+		</description>
+		<sheet>
+			<description>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Great Weapon Fighting Upgrade" level="9" />
+		</rules>
+	</element>
+	<element name="Two-Weapon Fighting" type="Archetype" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Two_Weapon Fighting">
+	<supports>Dragoon Fighting</supports>	
+		<description>
+			<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+		</description>
+		<sheet>
+			<description>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Two_Weapon Fighting Upgrade" level="9" />
+		</rules>
+	</element>
+	<element name="Brawling" type="Archetype" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Brawling">
+	<supports>Dragoon Fighting</supports>	
+		<description>
+			<p>You gain the following benefits while you are unarmed:</p>
+			<ul>
+				<li>You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes.</li>
+				<li>You can roll a d4 in place of the normal damage of your unarmed strike.</li>
+				<li>When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>You gain the following benefits while you are unarmed: You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes. You can roll a d4 in place of the normal damage of your unarmed strike. When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Brawling_Upgrade" level="9" />
+		</rules>
+	</element>
+
+	<!-- Dragoon Gems Spirit -->
+
+	<element name="Red-Eyed Dragon" type="Archetype" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_Red_Eyed_Dragon">
+		<supports>Dragoon Gem</supports>
+		<description>
+			<p>The Red-Eyed dragon was born of chaotic fire, and the searing heat that resides within this Dragoon Spirit embodies the user completely. Users of this spirit can be hot headed or ferociously courageous, but are always doers. Red or Gold dragon souls can fit in this category.</p>
+			<h3>Cantrips</h3>
+			<p>In addition, you learn Control Flames and Firebolt as cantrips that you can use even while outside of Dragoon Form.</p>
+		</description>
+		<sheet display="true">
+			<description>The Red-Eyed dragon was born of chaotic fire, and the searing heat that resides within this Dragoon Spirit embodies the user completely. Users of this spirit can be hot headed or ferociously courageous, but are always doers. Red or Gold dragon souls can fit in this category. You can use cantrips even while outside of Dragoon Form.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" level="3" />
+			<grant type="Language" id="ID_MM_LANGUAGE_IGNAN" level="3"/>
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Flame_Tongued" level="3" />
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Fire_Guard" level="7" />
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Flame_Burst" level="10" />
+			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_FLAMES" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_AGANAZZARS_SCORCHER" level="3" spellcasting="Dragoon" prepared="true" /> 
+			<grant type="Spell" id="ID_PHB_SPELL_WALL_OF_FIRE" level="7" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FIREBALL" level="10" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_SOLVERNIA_SPELL_INMOLATION" level="15" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ILLUSORY_DRAGON" level="18" spellcasting="Dragoon" prepared="true" />
+			
+		</rules>
+	</element>
+	<element name="Jade Dragon" type="Archetype" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_Jade_Dragon">
+		<supports>Dragoon Gem</supports>
+		<description>
+			<p>The Jade dragon is the embodiment of wind. While gentle and protectful, underestimating a strong gust can be deadly. Users of this spirit are often born logical leaders with a strong sense of loyalty. Green or Brass dragons fit into this category.</p>
+			<h3>Cantrips</h3>
+			<p>In addition, you learn Gust and Mage Hand as cantrips that you can use even while outside of Dragoon Form.</p>
+		</description>
+		<sheet display="true">
+			<description>The Jade dragon is the embodiment of wind. While gentle and protectful, underestimating a strong gust can be deadly. Users of this spirit are often born logical leaders with a strong sense of loyalty. Green or Brass dragons fit into this category. In addition, you learn Gust and Mage Hand as cantrips that you can use even while outside of Dragoon Form.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" level="3" />
+			<grant type="Language" id="ID_MM_LANGUAGE_AURAN" level="3"/>
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Wind_Whisperer" level="3" />
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Rose_Guard" level="7" />
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Air_Burst" level="10" />
+			<grant type="Spell" id="ID_XGTE_SPELL_GUST" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_MAGE_HAND" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_WIND_WALL" level="7" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_STORM_SPHERE" level="10" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_STEEL_WIND_STRIKE" level="15" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ILLUSORY_DRAGON" level="18" spellcasting="Dragoon" prepared="true" />
+		</rules>
+	</element>
+	<element name="White-Silver Dragon" type="Archetype" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_White_Silver_Dragon">
+		<supports>Dragoon Gem</supports>
+		<description>
+			<p>The White-Silver dragon was born of the purest light. Users of this spirit are typically extremely caring and intensely devoted to either their beliefs or family. A Faerie Dragon fits in this category.</p>
+			<h3>Cantrips</h3>
+			<p>In addition, you learn Light and Spare the Dying as cantrips that you can use even while outside of Dragoon Form.</p>
+		</description>
+		<sheet display="true">
+			<description>The White-Silver dragon was born of the purest light. Users of this spirit are typically extremely caring and intensely devoted to either their beliefs or family. A Faerie Dragon fits in this category. In addition, you learn Light and Spare the Dying as cantrips that you can use even while outside of Dragoon Form.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" level="3" />
+			<grant type="Language" id="ID_LANGUAGE_CELESTIAL" level="3"/>
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Light_Voiced" level="3" />
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Radiant_Guard" level="7" />
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Light_Burst" level="10" />
+			<grant type="Spell" id="ID_PHB_SPELL_LIGHT" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SPARE_THE_DYING" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_HEALING_SPIRIT" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_MOONBEAM" level="7" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_SICKENING_RADIANCE" level="10" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_HEAL" level="15" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ILLUSORY_DRAGON" level="18" spellcasting="Dragoon" prepared="true" />
+		</rules>
+	</element>
+	<element name="Dark Dragon" type="Archetype" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_Dark_Dragon">
+		<supports>Dragoon Gem</supports>
+		<description>
+			<p>A dragon born of darkness and far from other life, it is a machine born of death and destruction that seeks to irradicate life as it's opposed nature. Users of this spirit are typical dark brooding loners - the secretive types with dark pasts. Black or Copper dragons fit into this category.</p>
+			<h3>Cantrips</h3>
+			<p>In addition, you learn Chill Touch and Toll the Dead as cantrips that you can use even while outside of Dragoon Form.</p>
+		</description>
+		<sheet display="true">
+			<description>A dragon born of darkness and far from other life, it is a machine born of death and destruction that seeks to irradicate life as it's opposed nature. Users of this spirit are typical dark brooding loners - the secretive types with dark pasts. Black or Copper dragons fit into this category. In addition, you learn Chill Touch and Toll the Dead as cantrips that you can use even while outside of Dragoon Form.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" level="3" />
+			<grant type="Language" id="ID_LANGUAGE_ABYSSAL" level="3"/>
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Hushed_Darkness" level="3" />
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Shadow_Guard" level="7" />
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Dark_Burst" level="10" />
+			<grant type="Spell" id="ID_PHB_SPELL_CHILL_TOUCH" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_TOLL_THE_DEAD" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DARKNESS" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_VAMPIRIC_TOUCH" level="7" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_BLIGHT" level="10" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CIRCLE_OF_DEATH" level="15" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ILLUSORY_DRAGON" level="18" spellcasting="Dragoon" prepared="true" />
+		</rules>
+	</element>
+	<element name="Violet Dragon" type="Archetype" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_Violet_Dragon">
+		<supports>Dragoon Gem</supports>
+		<description>
+			<p>The Violet Dragon is said to have been born from the first lightning bolt - coalescing in immense power in the most raw form. The user of this spirit is typically strong in both physical prowess and their indomitable willpower. Blue or Bronze dragons fit into this category.</p>
+			<h3>Cantrips</h3>
+			<p>In addition, you learn Shocking Grasp and Lightning Lure as cantrips that you can use even while outside of Dragoon Form.</p>
+		</description>
+		<sheet display="true">
+			<description>The Violet Dragon is said to have been born from the first lightning bolt - coalescing in immense power in the most raw form. The user of this spirit is typically strong in both physical prowess and their indomitable willpower. Blue or Bronze dragons fit into this category. In addition, you learn Shocking Grasp and Lightning Lure as cantrips that you can use even while outside of Dragoon Form.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" level="3" />
+			<grant type="Language" id="ID_LANGUAGE_SYLVAN" level="3"/>
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Lightning_Words" level="3" />
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Shock_Guard" level="7" />
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Electric_Burst" level="10" />
+			<grant type="Spell" id="ID_SCAG_SPELL_LIGHTNING_LURE" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SHOCKING_GRASP" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_MIRROR_IMAGE" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_ELEMENTAL_WEAPON" level="7" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ELEMENTAL_BANE" level="10" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CHAIN_LIGHTNING" level="15" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ILLUSORY_DRAGON" level="18" spellcasting="Dragoon" prepared="true" />
+		</rules>
+	</element>
+	<element name="Blue-Sea Dragon" type="Archetype" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_Blue_Sea_Dragon">
+		<supports>Dragoon Gem</supports>
+		<description>
+			<p>The depths of the ocean are cold and mysterious, and the dragons that live there harness the tidal powers of nature to do their bidding. A user of this spirit is typically very fluid and active, being rather lively and charismatic individuals. White or Silver dragons fit into this category.</p>
+			<h3>Cantrips</h3>
+			<p>In addition, you learn Shape Water and Frostbite as cantrips that you can use even while outside of Dragoon Form.</p>
+		</description>
+		<sheet display="true">
+			<description>The depths of the ocean are cold and mysterious, and the dragons that live there harness the tidal powers of nature to do their bidding. A user of this spirit is typically very fluid and active, being rather lively and charismatic individuals. White or Silver dragons fit into this category. In addition, you learn Shape Water and Frostbite as cantrips that you can use even while outside of Dragoon Form.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" level="3" />
+			<grant type="Language" id="ID_MM_LANGUAGE_AQUAN" level="3"/>
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Icicle_Tongue" level="3" />
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Frost_Guard" level="7" />
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Ice_Burst" level="10" />
+			<grant type="Spell" id="ID_XGTE_SPELL_SHAPE_WATER" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_FROSTBITE" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ICE_KNIFE" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_WALL_OF_WATER" level="7" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_WATERY_SPHERE" level="10" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_OTILUKES_FREEZING_SPHERE" level="15" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ILLUSORY_DRAGON" level="18" spellcasting="Dragoon" prepared="true" />
+		</rules>
+	</element>
+	<element name="Golden Dragon" type="Archetype" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_Golden_Dragon">
+		<supports>Dragoon Gem</supports>
+		<description>
+			<p>Unchanging as the land they live on, Golden dragons are more literal with their connection to the shining mineral. Users of this spirit have often been stoic, but incredibly powerful and with the cliche and pun-filled heart of gold. A Dragon Turle fits into this category.</p>
+			<h3>Cantrips</h3>
+			<p>In addition, you learn Mold Earth and Magic Stone as cantrips that you can use even while outside of Dragoon Form.</p>
+		</description>
+		<sheet display="true">
+			<description>Unchanging as the land they live on, Golden dragons are more literal with their connection to the shining mineral. Users of this spirit have often been stoic, but incredibly powerful and with the cliche and pun-filled heart of gold. A Dragon Turle fits into this category. In addition, you learn Mold Earth and Magic Stone as cantrips that you can use even while outside of Dragoon Form.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" level="3" />
+			<grant type="Language" id="ID_MM_LANGUAGE_TERRAN" level="3"/>
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Earthen_Voice" level="3" />
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Rock_Guard" level="7" />
+			<grant type="Archetype Feature" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Boulder_Burst" level="10" />
+			<grant type="Spell" id="ID_XGTE_SPELL_MOLD_EARTH" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_MAGIC_STONE" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_DUST_DEVIL" level="3" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ERUPTING_EARTH" level="7" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_STONE_SHAPE" level="10" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_BONES_OF_THE_EARTH" level="15" spellcasting="Dragoon" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_ILLUSORY_DRAGON" level="18" spellcasting="Dragoon" prepared="true" />
+		</rules>
+	</element>
+
+	<!-- Features -->
+		<element name="Guard" type="Class Feature" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Guard">
+		<description>
+			<p>Also at 2nd level, when you are the target of a weapon attack, you may spend two spirit points as a reaction to take a last minute fortified stance. While guarded, you gain resistance to all non-magical bludgeoning, piercing, and slashing damage. This stance lasts until your next turn. Your next action may only be taken to expend one hit dice to heal.</p>
+		</description>
+		<sheet>
+			<description>When you are the target of a weapon attack, you may spend two spirit points as a reaction to take a last minute fortified stance. While guarded, you gain resistance to all non-magical bludgeoning, piercing, and slashing damage. This stance lasts until your next turn. Your next action may only be taken to expend one hit dice to heal.</description>
+		</sheet>
+	</element>
+
+	<element name="Spirit" type="Class Feature" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Spirit">
+		<description>
+			<p>Starting at 2nd level, when you successfully hit with a weapon attack, you generate one spirit point. You may have a maximum amount of spirit points accumulated at one time as shown on The Dragoon table. When you spend a hit die to recover HP, you may expend your current spirit points to instantly regain that much HP.</p>
+		</description>
+		<sheet display="true">
+			<description>You have an internal reservoir of {{spirit}} maximum spirit points. Starting at 2nd level, when you successfully hit with a weapon attack, you generate one spirit point. You may have a maximum amount of spirit points accumulated. When you spend a hit die to recover HP, you may expend your current spirit points to instantly regain that much HP.</description>
+		</sheet>
+		<rules>
+			<stat name="spirit" value="5" bonus="spirit" level="1"/>
+			<stat name="spirit" value="5" bonus="spirit" level="2"/>
+			<stat name="spirit" value="5" bonus="spirit" level="3"/>
+			<stat name="spirit" value="5" bonus="spirit" level="4"/>
+			<stat name="spirit" value="10" bonus="spirit" level="5"/>
+			<stat name="spirit" value="10" bonus="spirit" level="6"/>
+			<stat name="spirit" value="10" bonus="spirit" level="7"/>
+			<stat name="spirit" value="10" bonus="spirit" level="8"/>
+			<stat name="spirit" value="10" bonus="spirit" level="9"/>
+			<stat name="spirit" value="15" bonus="spirit" level="10"/>
+			<stat name="spirit" value="15" bonus="spirit" level="11"/>
+			<stat name="spirit" value="15" bonus="spirit" level="12"/>
+			<stat name="spirit" value="15" bonus="spirit" level="13"/>
+			<stat name="spirit" value="15" bonus="spirit" level="14"/>
+			<stat name="spirit" value="20" bonus="spirit" level="15"/>
+			<stat name="spirit" value="20" bonus="spirit" level="16"/>
+			<stat name="spirit" value="20" bonus="spirit" level="17"/>
+			<stat name="spirit" value="20" bonus="spirit" level="18"/>
+			<stat name="spirit" value="20" bonus="spirit" level="19"/>
+			<stat name="spirit" value="25" bonus="spirit" level="20"/>
+		</rules>
+	</element>
+	<element name="Dragoon Form" type="Spell" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Dragoon_Form" >
+		<description>
+			<p>At 3rd level, the Dragoon Spirit, held in a colored stone that your character obtains, finds you worthy and brightly activates. As a bonus action, if you have a minimum of 5 spirit points stored, you may activate the dragoon form, projecting the soul of the dragon as a set of armor and wings. This form lasts for 1 minute, or until your spirit point count is 0, at which point you return to normal and your spirit point count turns to 0 regardless of whether it was used or not.</p>
+			<p class="indent">Your Dragoon Spirit may not be destroyed. If the stone is lost or stolen, you always know how far it is from you and the direction toward it. Another creature may not receive the benefits of the Dragoon Form or Dragoon Spirit unless the dragon's soul finds them worthy, at which point the original Dragoon must regain the trust and worth of the dragon. If two Dragoon Spirits are within 60 feet of each other, they shine brightly like beacons.</p>
+			<p class="indent">While in Dragoon Form, you gain the following benefits:</p>
+			<ul>
+				<li>You gain a +2 bonus to your AC with your dragoon armor.</li>
+				<li>You gain a fly speed of 30 feet, with hover.</li>
+				<li>Your weapon gains a +1 bonus to attack and damage rolls.</li>
+			</ul>
+			<p>Any action other than movement, dash, or disengage taken while in Dragoon Form costs 1 spirit point to perform. Every separate attack that would be made also costs 1 spirit point to perform. You do not gain any spirit points while in this form.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">0</set>
+			<set name="school">Legend of Dragoon Feature</set>
+			<set name="time">Variable</set>
+			<set name="duration">Variable</set>
+			<set name="range">Variable</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent"></set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Dragoon Spirit" type="Class Feature" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Dragoon_Spirit">
+		<description>
+			<p>The spirit that is activated at 3rd level is the cause of a dragon's soul inside of a colored stone. The type of dragon that is within the spirit dictates extra abilities that you receive as you gain dragoon levels. Choose Red-Eyed, Jade, White-Silver, Dark, Violet, Blue-Sea, or Golden dragoon spirits, all detailed at the end of the class description. Your choice grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</p>
+		</description>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Ability_Score_Improvement">
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+			<p class="indent">Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.</p>
+		</description>
+	</element>
+
+	<element name="Addition" type="Class Feature" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Addition">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. If all attacks hit during an addition, you receive 1 extra spirit point per extra attack.</p>
+			<p class="indent">The number of attacks increases to three when you reach 11th level in this class.</p>
+		</description>
+		<sheet>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn. If all attacks hit during an addition, you receive 1 extra spirit point per extra attack. The number of attacks increases to three when you reach 11th level in this class.</description>
+		</sheet>
+	</element>
+
+	<element name="Dragonic Connection" type="Class Feature" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Dragonic Connection">
+		<description>
+			<p>As a result of being bound to the soul of a dragon, at 6th level you begin to understand these creatures more. You have advantage on Wisdom (Survival) check to track dragons.</p>
+			<p class="indent">In addition, once per long rest you may raise your Dragoon Spirit high above you. If there is a dragon within one mile of you, the stone shines bright and you know which direction the dragon is in.</p>
+		</description>
+		<sheet>
+			<description>As a result of being bound to the soul of a dragon, you begin to understand these creatures more. You have advantage on Wisdom (Survival) check to track dragons. In addition, once per long rest you may raise your Dragoon Spirit high above you. If there is a dragon within one mile of you, the stone shines bright and you know which direction the dragon is in</description>
+		</sheet>
+	</element>
+	<element name="Magic Guard" type="Class Feature" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Magic Guard">
+		<description>
+			<p>At 13th level, when using the Guard feature, you gain resistance to all bludgeoning, piercing, and slashing damage.</p>
+		</description>
+		<sheet>
+			<description>When using the Guard feature, you gain resistance to all bludgeoning, piercing, and slashing damage.</description>
+		</sheet>
+	</element>
+
+	<element name="Dragoon Addition" type="Class Feature" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Dragoon Addition">
+		<description>
+			<p>Upon reaching 14th level, when in Dragoon Form, your weapon is considered magical and gains a +2 bonus to attack and damage.</p>
+		</description>
+		<sheet>
+			<description>When in Dragoon Form, your weapon is considered magical and gains a +2 bonus to attack and damage.</description>
+		</sheet>
+	</element>
+	<element name="Addition Plus" type="Class Feature" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Addition Plus">
+		<description>
+			<p>At 17th level, you may attack as many times as your Wisdom modifier whenever you take the Attack action on your turn. If you attack more than three times when using this feature, you do not add your ability modifier to any of these attack's damage.</p>
+			<p class="indent">If every attack hits while using this feature, you double the spirit points gained.</p>
+		</description>
+		<sheet>
+			<description>You may attack as many times as your Wisdom modifier whenever you take the Attack action on your turn. If you attack more than three times when using this feature, you do not add your ability modifier to any of these attack's damage.
+			If every attack hits while using this feature, you double the spirit points gained.</description>
+		</sheet>
+	</element>
+	<element name="Divine Dragoon Spirit" type="Class Feature" source="Dragoon" id="ID_SOLVERNIA_CLASS_FEATURE_Divine Dragoon Spirit">
+		<description>
+			<p>When reaching 20th level, you come into possession of a second Dragoon Spirit, one of a long forgotten non-elemental Divine Dragon. Speak to your GM about how you could possibly obtain this spirit, whether by slaying a dragon or having the trinket the whole time during your journey. When you enter Dragoon Form, you may instead choose to use this spirit instead of the one you chose earlier.</p>
+		</description>
+		<sheet>
+			<description>You come into possession of a second Dragoon Spirit, one of a long forgotten non-elemental Divine Dragon. Speak to your GM about how you could possibly obtain this spirit, whether by slaying a dragon or having the trinket the whole time during your journey. When you enter Dragoon Form, you may instead choose to use this spirit instead of the one you chose earlier.</description>
+		</sheet>
+	</element>
+
+
+	<!-- Fighting Style Upgrade -->
+
+	<element name="Archery Upgrade" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Archery Upgrade">
+		<supports>Archery</supports>
+		<description>
+			<p>Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.</p>
+		</description>
+		<sheet>
+			<description>Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.</description>
+		</sheet>
+	</element>
+	<element name="Dueling Upgrade" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Dueling Upgrade">
+		<supports>Dueling</supports>
+		<description>
+			<p>When you are wielding a melee weapon in one hand and no other weapons or shield, you gain a +2 bonus to attack and damage rolls with that weapon.</p>
+		</description>
+		<sheet>
+			<description>When you are wielding a melee weapon in one hand and no other weapons or shield, you gain a +2 bonus to attack and damage rolls with that weapon.</description>
+		</sheet>
+	</element>
+	<element name="Great Weapon Fighting Upgrade" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Great Weapon Fighting Upgrade">
+	<supports>Great Weapon Fighting</supports>
+		<description>
+			<p>Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack’s damage.</p>
+		</description>
+		<sheet>
+			<description>Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack’s damage.</description>
+		</sheet>
+	</element>
+	<element name="Two-Weapon Fighting Upgrade" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Two_Weapon Fighting Upgrade">
+	<supports>Two-Weapon Fighting</supports>
+		<description>
+			<p>You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light.</p>
+		</description>
+		<sheet>
+			<description>You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren't light.</description>
+		</sheet>
+	</element>
+	<element name="Brawling Upgrade" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Brawling_Upgrade">
+	<supports>Brawling</supports>
+		<description>
+			<p>You can roll a d6 in place of the normal damage of your unarmed strike.</p>
+			<p>When you hit a creature with an unarmed strike on your turn, you can use a bonus action to attempt to grapple the target. A grapple check is a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check.</p>
+		</description>
+		<sheet>
+			<description>You can roll a d6 in place of the normal damage of your unarmed strike. When you hit a creature with an unarmed strike on your turn, you can use a bonus action to attempt to grapple the target. A grapple check is a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check.</description>
+		</sheet>
+	</element>
+
+	<!-- Red Dragoon Spells -->
+
+	<element name="Flame Tongued" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Flame_Tongued">
+		<supports>Red-Eyed Dragon</supports>
+		<description>
+			<p>Also at 3rd level, you learn to understand Draconic and Ignan. While in Dragoon Form, you become resistant to fire damage, and vulnerable to cold damage.</p>
+		</description>
+		<sheet>
+			<description>You learn to understand Draconic and Ignan. While in Dragoon Form, you become resistant to fire damage, and vulnerable to cold damage.</description>
+		</sheet>
+	</element>
+	<element name="Fire Guard" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Fire_Guard">
+		<supports>Red-Eyed Dragon</supports>
+		<description>
+			<p>At 7th level, when you use the Guard feature, you are also resistant to fire damage. When using the Guard feature in Dragoon Form, you are immune to fire damage.</p>
+		</description>
+		<sheet>
+			<description>When you use the Guard feature, you are also resistant to fire damage. When using the Guard feature in Dragoon Form, you are immune to fire damage.</description>
+		</sheet>
+	</element>
+		<element name="Fire Burst" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Flame_Burst">
+		<supports>Red-Eyed Dragon</supports>
+		<description>
+			<p>Upon reaching 10th level, when you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash an explosion of flames upon the last target you hit. The target takes an immediate extra 2d6 fire damage.</p>
+		</description>
+		<sheet>
+			<description>When you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash an explosion of flames upon the last target you hit. The target takes an immediate extra 2d6 fire damage.</description>
+		</sheet>
+	</element>
+
+	<!-- Jade Dragoon Spells -->
+
+	<element name="Wind Whisperer" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Wind_Whisperer">
+		<supports>Jade Dragon</supports>
+		<description>
+			<p>Also at 3rd level, you learn to understand Draconic and Auran. While in Dragoon Form, you become resistant to thunder damage, and vulnerable to acid and poison damage.</p>
+		</description>
+		<sheet>
+			<description>You learn to understand Draconic and Auran. While in Dragoon Form, you become resistant to thunder damage, and vulnerable to acid and poison damage.</description>
+		</sheet>
+	</element>
+	<element name="Rose Guard" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Rose_Guard">
+		<supports>Jade Dragon</supports>
+		<description>
+			<p>At 7th level, when you use the Guard feature, enemies that hit you with a melee weapon attack also take 1d6 slashing damage from the storm of roses surrounding you.</p>
+		</description>
+		<sheet>
+			<description>When you use the Guard feature, enemies that hit you with a melee weapon attack also take 1d6 slashing damage from the storm of roses surrounding you.</description>
+		</sheet>
+	</element>
+	<element name="Air Burst" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Air_Burst">
+		<supports>Jade Dragon</supports>
+		<description>
+			<p>Upon reaching 10th level, when you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a concentrated sonic boom upon the last target you hit. The target takes an immediate extra 2d6 thunder damage.</p>
+		</description>
+		<sheet>
+			<description>When you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a concentrated sonic boom upon the last target you hit. The target takes an immediate extra 2d6 thunder damage.</description>
+		</sheet>
+	</element>
+
+	<!-- White Silver Dragon Spells -->
+
+	<element name="Light Voiced" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Light_Voiced">
+		<supports>White-Silver Dragon</supports>
+		<description>
+			<p>Also at 3rd level, you learn to understand Draconic and Celestial. While in Dragoon Form, you become resistant to radiant damage, and vulnerable to necrotic damage.</p>
+		</description>
+		<sheet>
+			<description>You learn to understand Draconic and Celestial. While in Dragoon Form, you become resistant to radiant damage, and vulnerable to necrotic damage.</description>
+		</sheet>
+	</element>
+	<element name="Radiant Guard" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Radiant_Guard">
+		<supports>White-Silver Dragon</supports>
+		<description>
+			<p>At 7th level, when you use the Guard feature, you are also resistant to radiant damage. When using the Guard feature in Dragoon Form, you are immune to radiant damage.</p>
+		</description>
+		<sheet>
+			<description>When you use the Guard feature, you are also resistant to radiant damage. When using the Guard feature in Dragoon Form, you are immune to radiant damage.</description>
+		</sheet>
+	</element>
+	<element name="Light Burst" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Light_Burst">
+		<supports>White-Silver Dragon</supports>
+		<description>
+			<p>Upon reaching 10th level, when you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a flash of searing light upon the last target you hit. The target takes an immediate extra 2d6 radiant damage.</p>
+		</description>
+		<sheet>
+			<description>When you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a flash of searing light upon the last target you hit. The target takes an immediate extra 2d6 radiant damage.</description>
+		</sheet>
+	</element>
+
+	<!-- Dark Dragon Spells -->
+
+	<element name="Hushed Darkness" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Hushed_Darkness">
+		<supports>Dark Dragon</supports>
+		<description>
+			<p>Also at 3rd level, you learn to understand Draconic and Abyssal. While in Dragoon Form, you become resistant to necrotic damage, and vulnerable to radiant damage.</p>
+		</description>
+		<sheet>
+			<description>You learn to understand Draconic and Abyssal. While in Dragoon Form, you become resistant to necrotic damage, and vulnerable to radiant damage.</description>
+		</sheet>
+	</element>
+	<element name="Shadow Guard" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Shadow_Guard">
+		<supports>Dark Dragon</supports>
+		<description>
+			<p>At 7th level, when you use the Guard feature, you are also resistant to necrotic damage. When using the Guard feature in Dragoon Form, you are immune to necrotic damage.</p>
+		</description>
+		<sheet>
+			<description>When you use the Guard feature, you are also resistant to necrotic damage. When using the Guard feature in Dragoon Form, you are immune to necrotic damage.</description>
+		</sheet>
+	</element>
+	<element name="Dark Burst" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Dark_Burst">
+		<supports>Dark Dragon</supports>
+		<description>
+			<p>Upon reaching 10th level, when you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a draw of dark energy upon the last target you hit. The target takes an immediate extra 2d6 necrotic damage.</p>
+		</description>
+		<sheet>
+			<description>When you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a draw of dark energy upon the last target you hit. The target takes an immediate extra 2d6 necrotic damage.</description>
+		</sheet>
+	</element>
+
+	<!-- Violet Dragon Spells -->
+
+	<element name="Lightning Words" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Lightning_Words">
+		<supports>Violet Dragon</supports>
+		<description>
+			<p>Also at 3rd level, you learn to understand Draconic and Sylvan. While in Dragoon Form, you become resistant to lightning damage, and vulnerable to psychic damage.</p>
+		</description>
+		<sheet>
+			<description>You learn to understand Draconic and Sylvan. While in Dragoon Form, you become resistant to lightning damage, and vulnerable to psychic damage.</description>
+		</sheet>
+	</element>
+	<element name="Shock Guard" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Shock_Guard">
+		<supports>Violet Dragon</supports>
+		<description>
+			<p>At 7th level, when you use the Guard feature, you are also resistant to lightning damage. When using the Guard feature in Dragoon Form, you are immune to lightning damage.</p>
+		</description>
+		<sheet>
+			<description>When you use the Guard feature, you are also resistant to lightning damage. When using the Guard feature in Dragoon Form, you are immune to lightning damage.</description>
+		</sheet>
+	</element>
+	<element name="Electric Burst" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Electric_Burst">
+		<supports>Violet Dragon</supports>
+		<description>
+			<p>Upon reaching 10th level, when you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a bolt of lightning upon the last target you hit. The target takes an immediate extra 2d6 lightning damage.</p>
+		</description>
+		<sheet>
+			<description>When you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a bolt of lightning upon the last target you hit. The target takes an immediate extra 2d6 lightning damage.</description>
+		</sheet>
+	</element>
+
+	<!-- Blue Sea Dragon Spells -->
+
+	<element name="Icicle Tongue" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Icicle_Tongue">
+		<supports>Blue-Sea Dragon</supports>
+		<description>
+			<p>Also at 3rd level, you learn to understand Draconic and Aquan. While in Dragoon Form, you become resistant to cold damage, and vulnerable to fire damage.</p>
+		</description>
+		<sheet>
+			<description>You learn to understand Draconic and Aquan. While in Dragoon Form, you become resistant to cold damage, and vulnerable to fire damage.</description>
+		</sheet>
+	</element>
+	<element name="Frost Guard" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Frost_Guard">
+		<supports>Blue-Sea Dragon</supports>
+		<description>
+			<p>At 7th level, when you use the Guard feature, you are also resistant to cold damage. When using the Guard feature in Dragoon Form, you are immune to cold damage.</p>
+		</description>
+		<sheet>
+			<description>When you use the Guard feature, you are also resistant to cold damage. When using the Guard feature in Dragoon Form, you are immune to cold damage.</description>
+		</sheet>
+	</element>
+	<element name="Ice Burst" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Ice_Burst">
+		<supports>Blue-Sea Dragon</supports>
+		<description>
+			<p>Upon reaching 10th level, when you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a spike of ice upon the last target you hit. The target takes an immediate extra 2d6 cold damage.</p>
+		</description>
+		<sheet>
+			<description>When you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a spike of ice upon the last target you hit. The target takes an immediate extra 2d6 cold damage.</description>
+		</sheet>
+	</element>
+
+	<!-- Golden Dragon Spells -->
+
+	<element name="Earthen Voice" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Earthen_Voice">
+		<supports>Golden Dragon</supports>
+		<description>
+			<p>Also at 3rd level, you learn to understand Draconic and Terran. While in Dragoon Form, you become resistant to acid and poison damage, and vulnerable to thunder damage.</p>
+		</description>
+		<sheet>
+			<description>You learn to understand Draconic and Terran. While in Dragoon Form, you become resistant to acid and poison damage, and vulnerable to thunder damage.</description>
+		</sheet>
+	</element>
+	<element name="Rock Guard" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Rock_Guard">
+		<supports>Golden Dragon</supports>
+		<description>
+			<p>At 7th level, when you use the Guard feature, you are also resistant to acid and poison damage. When using the Guard feature in Dragoon Form, you are immune to acid and poison damage.</p>
+		</description>
+		<sheet>
+			<description>You use the Guard feature, you are also resistant to acid and poison damage. When using the Guard feature in Dragoon Form, you are immune to acid and poison damage.</description>
+		</sheet>
+	</element>
+	<element name="Boulder Burst" type="Archetype Feature" source="Dragoon" id="ID_SOLVERNIA_ARCHETYPE_FEATURE_Boulder_Burst">
+		<supports>Golden Dragon</supports>
+		<description>
+			<p>Upon reaching 10th level, when you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a boulder upon the last target you hit. The target takes an immediate extra 2d6 magical bludgeoning damage.</p>
+		</description>
+		<sheet>
+			<description>When you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a boulder upon the last target you hit. The target takes an immediate extra 2d6 magical bludgeoning damage.</description>
+		</sheet>
+	</element>
+
+	<!-- Hechizos Custom -->
+
+	<element name="Inmolation" type="Spell" source="Custom Spells" id="ID_SOLVERNIA_SPELL_INMOLATION">
+		<supports>Sorcerer, Wizard, Dragoon</supports>
+		<description>
+			<p>Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes 8d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns for the spell's duration. </p>
+			<p>The burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. At the end of each of its turns, the target repeats the saving throw. It takes 4d6 fire damage on a failed save, and the spell ends on a successful one. These magical flames can't be extinguished by nonmagical means.</p>
+			<p class="indent"> If damage from this spell kills a target, the target is turned to ash.</p>
+		</description>
+		<setters>
+			<set name="keywords">fire</set>
+			<set name="level">6</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 Minute</set>
+			<set name="range">90 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">15 spirit points</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+  </element>
+</elements>
+
+
+

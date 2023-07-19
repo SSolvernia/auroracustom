@@ -1,0 +1,498 @@
+<style>
+  .phb#p1{ text-align:center; }
+  .phb#p1:after{ display:none; }
+  tab { padding-left:2em; }
+</style>
+
+<img src='http://www.metallicsunmedia.com/images/homebrews/dragoon/huynh-le-kathring-1-1psd.png' style='position:absolute;top:0px;left:-400px;width:200%'/>
+
+
+<img src='http://www.metallicsunmedia.com/images/homebrews/dragoon/dragoonheader.png' style='position:absolute;top:50px;width:350px'/>
+
+<img src='http://www.metallicsunmedia.com/images/homebrews/redline.png' style='position:absolute;top:100px;left:85px;width:80%'/>
+
+<img src='http://www.metallicsunmedia.com/images/homebrews/dragoon/dragoondescrip.png' style='position:absolute;top:900px;left:130px;width:550px'/>
+
+<img src='http://www.metallicsunmedia.com/images/homebrews/DMsGuildProductLogoLarge.png' style='position:absolute;top:875px;right:50px;width:100px'/>
+
+
+
+
+
+
+
+
+
+\page
+
+<div class='pageNumber'>1</div>
+<div class='toc'>
+##### Table Of Contents
+- **[Dragoon](#p3)**
+  - [Introduction](#p3)
+    - [Knights of Destiny](#p3)
+    - [Spirit in Insanity](#p3)
+    - [Creating a Dragoon](#p3)
+  - [Class Features](#p4)
+    - [Fighting STyle](#p4)
+    - [Spirit](#p4)
+    - [Guard](#p4)
+    - [Dragoon Form](#p4)
+    - [Dragoon Spirit](#p5)
+    - [Ability Score Improvement](#p5)
+    - [Addition](#p5)
+    - [Draconic Connection](#p5)
+    - [Fighting Style Upgrade](#p5)
+    - [Magic Guard](#p5)
+    - [Dragoon Addition](#p5)
+    - [Addition Plus](#p5)
+    - [Divine Dragoon Spirit](#p5)
+  - **[Dragoon Spirit](#p6)**
+    - [Red-Eyed Dragoon](#p6)
+    - [Jade Dragoon](#p6)
+    - [White-Silver Dragoon](#p7)
+    - [Dark Dragoon](#p7)
+    - [Violet Dragoon](#p7)
+    - [Blue-Sea Dragoon](#p8)
+    - [Golden Dragoon](#p8)
+
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+This content is directly inspired by Sony Computer Entertainment's The Legend of Dragoon video game for the Playstation.<br><br>
+
+*DUNGEONS & DRAGONS, D&D, Wizards of the Coast, Forgotten Realms, the dragon ampersand, Player’s Handbook, Monster Manual, Dungeon Master’s Guide, D&D Adventurers League, all other Wizards of the Coast product names, and their respective logos are trademarks of Wizards of the Coast in the USA and other countries. All characters and their distinctive likenesses are property of Wizards of the Coast. This material is protected under the copyright laws of the United States of America. Any reproduction or unauthorized use of the material or artwork contained herein is prohibited without the express written permission of Wizards of the Coast.*
+
+*©2016 Wizards of the Coast LLC, PO Box 707, Renton, WA 98057-0707, USA. Manufactured by Hasbro SA, Rue Emile-Boéchat 31, 2800 Delémont, CH. Represented by Hasbro Europe, 4 The Square, Stockley Park, Uxbridge, Middlesex, UB11 1ET, UK.*
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<img src='http://www.metallicsunmedia.com/images/homebrews/MSM.png' style='width:300px'/>
+Written by Artem Bank | https://www.metallicsunmedia.com
+All content © Artem Bank 2018, unless otherwise noted.
+
+
+___
+Cover Art:
+"Legend of The Dragoon (fan concepts)" © Huynh Le 2019 | https://www.artstation.com/hl_design
+
+
+___
+Thank you to my wonderful D&D friends - Tony, Ryan, Richard, Sidney, and Andrew, in no particular order. I bother the hell out of them with this stuff and it would never get made if I couldn't bounce my ideas off of them and actually playtest it with them.
+
+Thank you to my lovely girlfriend Rachel who took the time out to proofread this document and help me fix all my mistakes.
+
+Thank you to reddit users dawnwaker, gnomeo67, and fractals_of-light for looking over this class and giving feedback.
+
+
+\page
+
+<div class='pageNumber'>2</div>
+
+# Dragoon
+An amber stone sits in a basket of other trinkets at a bazaar, a seemingly worthless rock amongst pottery and jewelry, but as the goliath passes, it sparks to life in a brilliant flash. The stall owner started jumping with glee as he tries to sell the now magical stone, but it only seems to spring to life for the huge man.
+
+An elven soldier defies the imaginable, and slays the dragon plaguing his nation. Tired and hungry, the man lifts his spear to return home, but the voice of the dragon calls out to him, and a green stone drifts into his hands.
+
+A human in the midst of war and battle fights for his life. Constantly battered and bruised, he fears the end is near, but just as he is cut down, his father's old pendant springs to life and in a blaze enveloping his body, emerges donning striking red armor and wide spread wings.
+
+All of these people have been chosen as part of their destiny to be a dragoon. They will become the weapons of fate, slated to serve a greater cosmic plan. They are soldiers and embrace combat to the end  with a prowess for almost dance-like fighting skills that lead to the build of their fighting spirit in a display of massive power. Dragoons may just be as old as the dragons themselves, though how they came to be is a mystery.
+
+### Knights of Destiny
+Dragoons are chosen by fate, and not by the wielders of the power. The soul of the dragon accepts their wielder as their master with or without their consent. Dragoons seem to be drawn to each other, to fulfill whatever purpose they are needed for.
+
+### Spirit in Insanity
+A dragoon is a weapon. The only way for a mortal to harness the energy of a dragoon is to raise their spirit into a form of battle insanity that they channel through manifesting magical armor and abilities. Regardless of the user's profession of life before they became a dragoon, they are now and forever will be combatants for fate.
+
+### Creating a Dragoon
+When creating a dragoon, your character's backstory is paramount. Dragoons are soldiers of fate, and combat runs through their blood. They exist solely to be the will of destiny and are bound by its chains. How did they learn basic combat? Were they soldiers, taught for war? Taught through necessity in horrible conditions? How your character learned to fight goes a  long way to figuring out how your character came into being a dragoon.
+
+Having possession of a dragoon spirit is no easy feat. Think about how your character could have obtained this, either prior to its activation or even after knowing what it is. Was the spirit a family heirloom in a pendant? Were they privy to a moment that a dragon was slain and they were chosen by the dragon's soul? Did they end a wicked dragoon's reign - or did they pry it from the rigteous' cold, dead hand.
+
+```
+```
+
+
+<div class='classTable'>
+##### The Dragoon
+| Level | Proficiency Bonus | Features | Maximum Spirit|
+|:---:|:---:|:---|:---:|
+| 1st | +2 | Fighting Style | 5 |
+| 2nd | +2 | Spirit, Guard | 5 |
+| 3rd | +2 | Dragoon Form, Dragoon Spirit | 5 |
+| 4th | +2 | Ability Score Improvement | 5 |
+| 5th | +3 | Addition | 10 |
+| 6th | +3 | Draconic Connection | 10 |
+| 7th | +3 | Dragoon Spirit Improvement | 10 |
+| 8th | +3 | Ability Score Improvement | 10 |
+| 9th | +4 | Fighting Style Upgrade | 10 |
+| 10th | +4 | Dragoon Spirit Improvement | 15 |
+| 11th | +4 | Addition (2) | 15 |
+| 12th | +4 | Ability Score Improvement | 15 |
+| 13th | +5 | Magic Guard | 15 |
+| 14th | +5 | Dragoon Addition | 15 |
+| 15th | +5 | Dragoon Spirit Improvement | 20 |
+| 16th | +5 | Ability Score Improvement | 20 |
+| 17th | +6 | Addition Plus | 20 |
+| 18th | +6 | Dragoon Spirit Improvement | 20 |
+| 19th | +6 | Ability Score Improvement | 20 |
+| 20th | +6 | Divine Dragon Spirit | 25 |
+</div>
+
+#### Quick Build
+You can make a dragoon quick by following these suggestions. First, make Strength or Dexterity your highest ability score, depending on whether you want to focus on melee weapons or on archery (or finesse weapons). Your next-highest score should be Wisdom. Second, choose the soldier background.
+
+
+\page
+
+<div class='pageNumber'>3</div>
+
+## Class Features
+As a dragoon, you gain the following class features
+#### Hit Points
+___
+- **Hit Dice:** 1d10 per dragoon level
+- **Hit Points at 1st Level:** 10 + your Constitution modifier
+- **Hit Points at Higher Levels:** 1d10 (or 6) + your Constitution modifier per dragoon level after 1st
+
+#### Proficiencies
+___
+- **Armor:** All armor, shields
+- **Weapons:** Simple weapons, martial weapons
+- **Tools:** None
+
+___
+- **Saving Throws:** Strength, Dexterity
+- **Skills:** Choose two from Arcana, Acrobatics, Animal Handling, Athletics, History, Insight, Perception, Persuation, and Survival
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+- (a) Scale Mail or (b) leather armor, Longbow, and 20 Arrows
+- (a) a martial weapon and a Shield or (b) two martial Weapons
+- (a) five javelins or (b) any simple weapon
+- (a) a Dungeoneer's Pack or (b) an Explorer's Pack
+
+
+### Fighting Style
+
+You adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.
+
+#### Archery
+You gain a +2 bonus to attack rolls you make with ranged weapons.
+
+#### Dueling
+When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
+
+#### Great Weapon Fighting
+When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+
+
+#### Two-Weapon Fighting
+When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
+
+```
+```
+
+#### Brawling
+You gain the following benefits while you are unarmed:
+- You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes.
+- You can roll a d4 in place of the normal damage of your unarmed strike.
+- When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action.
+
+### Spirit
+Starting at 2nd level, when you successfully hit with a weapon attack, you generate one spirit point. You may have a maximum amount of spirit points accumulated at one time as shown on The Dragoon table. When you spend a hit die to recover HP, you may expend your current spirit points to instantly regain that much HP.
+
+### Guard
+Also at 2nd level, when you are the target of a weapon attack, you may spend two spirit points as a reaction to take a last minute fortified stance. While guarded, you gain resistance to all non-magical bludgeoning, piercing, and slashing damage. This stance lasts until your next turn. Your next action may only be taken to expend one hit dice to heal.
+
+### Dragoon Form
+At 3rd level, the Dragoon Spirit, held in a colored stone that your character obtains, finds you worthy and brightly activates. As a bonus action, if you have a minimum of 5 spirit points stored, you may activate the dragoon form, projecting the soul of the dragon as a set of armor and wings. This form lasts for 1 minute, or until your spirit point count is 0, at which point you return to normal and your spirit point count turns to 0 regardless of whether it was used or not.
+
+Your Dragoon Spirit may not be destroyed. If the stone is lost or stolen, you always know how far it is from you and the direction toward it. Another creature may not receive the benefits of the Dragoon Form or Dragoon Spirit unless the dragon's soul finds them worthy, at which point the original Dragoon must regain the trust and worth of the dragon. If two Dragoon Spirits are within 60 feet of each other, they shine brightly like beacons.
+
+___
+While in Dragoon Form, you gain the following benefits:
+
+ - You gain a +2 bonus to your AC with your dragoon armor.
+ - You gain a fly speed of 30 feet, with hover.
+ - Your weapon gains a +1 bonus to attack and damage rolls.
+ 
+ ___
+ Any action other than movement, dash, or disengage taken while in Dragoon Form costs 1 spirit point to perform. Every separate attack that would be made also costs 1 spirit point to perform. You do not gain any spirit points while in this form.
+
+\page
+
+<div class='pageNumber'>4</div>
+
+### Dragoon Spirit
+The spirit that is activated at 3rd level is the cause of a dragon's soul inside of a colored stone. The type of dragon that is within the spirit dictates extra abilities that you receive as you gain dragoon levels. Choose Red-Eyed, Jade, White-Silver, Dark, Violet, Blue-Sea, or Golden dragoon spirits, all detailed at the end of the class description. Your choice grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.
+
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+
+Using the optional feats rule, you can forgo taking this feature to take a feat of your choice instead.
+
+### Addition
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn. If all attacks hit during an addition, you receive 1 extra spirit point per extra attack.
+
+The number of attacks increases to three when you reach 11th level in this class.
+
+### Draconic Connection
+As a result of being bound to the soul of a dragon, at 6th level you begin to understand these creatures more. You have advantage on Wisdom (Survival) check to track dragons. 
+
+In addition, once per long rest you may raise your Dragoon Spirit high above you. If there is a dragon within one mile of you, the stone shines bright and you know which direction the dragon is in.
+
+### Fighting Style Upgrade
+When you reach 9th level, your prowess in combat shows. The fighting style you chose at first level of this class gains an upgrade.
+
+#### Archery
+Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.
+
+#### Dueling
+When you are wielding a melee weapon in one hand and no other weapons or shield, you gain a +2 bonus to attack and damage rolls with that weapon.
+
+#### Great Weapon Fighting
+Before you make a melee attack with a heavy weapon that you are proficient with, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the attack’s damage.
+
+```
+```
+
+#### Two-Weapon Fighting
+You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren’t light.
+
+
+#### Brawling
+ - You can roll a d6 in place of the normal damage of your unarmed strike.
+ - When you hit a creature with an unarmed strike on your turn, you can use a bonus action to attempt to grapple the target. A grapple check is a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check.
+ 
+### Magic Guard
+At 13th level, when using the Guard feature, you gain resistance to all bludgeoning, piercing, and slashing damage.
+
+### Dragoon Addition
+Upon reaching 14th level, when in Dragoon Form, your weapon is considered magical and gains a +2 bonus to attack and damage.
+
+### Addition Plus
+At 17th level, you may attack as many times as your Wisdom modifier whenever you take the Attack action on your turn. If you attack more than three times when using this feature, you do not add your ability modifier to any of these attack's damage.
+
+If every attack hits while using this feature, you double the spirit points gained.
+
+### Divine Dragoon Spirit
+When reaching 20th level, you come into possession of a second Dragoon Spirit, one of a long forgotten non-elemental Divine Dragon. Speak to your GM about how you could possibly obtain this spirit, whether by slaying a dragon or having the trinket the whole time during your journey. When you enter Dragoon Form, you may instead choose to use this spirit instead of the one you chose earlier.
+
+##### Divine Dragoon Form Spells
+| Spell |Spirit Cost| Spell Level|
+:-------------|:--:|:--:|
+| Magic Missile | 3 |2nd|
+| Protection from Energy | 7 |3rd|
+| Resilient Sphere | 10 |4th|
+| Disintegrate | 15 |6th|
+| Illusory Dragon (Force) | 20 |8th|
+
+
+#### Prismatic Armor
+While in dragoon form, you become resistant to bludgeoning, piercing, slashing, and force damage. When using the Guard feature in Dragoon Form, you are immune to bludgeoning, piercing, slashing, and force damage.
+
+  \page
+
+<div class='pageNumber'>5</div>
+
+#### Force Burst
+When you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a torrent of force upon the last target you hit. The target takes an immediate extra 4d8 force damage.
+
+  
+## Dragoon Spirit
+Every dragoon spirit is the soul of a departed dragon that lends its power to a worthy user. The soul of the dragon bestows different abilities depending on the type of dragon. Each Spirit description lists what D&D dragon soul fits best into it's lore.
+
+#### Casting Spells
+
+Dragoon spells bestowed by the dragon soul are themed by their element. Casting a leveled spell is done by spending spirit points while in Dragoon Form. If a spell allows you to cast it at a higher level, you may spend spirit points as if you were casting a higher level spell.
+
+Wisdom is your spellcasting ability for your dragoon spells, since your magic is born from your inner strength to evoke the dragon's power. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a dragoon spell you cast and when making an attack roll with one.
+
+<div style="text-align: center">
+**Spell save DC** = 8 + your proficiency bonus + your Wisdom modifier
+
+**Spell attack modifier** = your proficiency bonus + your Wisdom modifier
+</div>
+
+### Red-Eyed Dragon
+The Red-Eyed dragon was born of chaotic fire, and the searing heat that resides within this Dragoon Spirit embodies the user completely. Users of this spirit can be hot headed or ferociously courageous, but are always doers. Red or Gold dragon souls can fit in this category.
+
+##### Red-Eyed Dragon Form Spells
+| Dragoon Level | Spell |Spirit Cost| Spell Level|
+|:----:|:-------------|:--:|:--:|
+| 3  | Aganazzar's Scorcher | 3 |2nd|
+| 7  | Wall of Fire | 7 |3rd|
+| 10 | Fireball | 10 |4th|
+| 15 | Immolation | 15 |6th|
+| 18 | Illusory Dragon (Fire) | 20 |8th|
+
+##### Cantrips
+In addition, you learn *Control Flames* and *Firebolt* as cantrips that you can use even while outside of Dragoon Form.
+
+#### Flame Tongued
+Also at 3rd level, you learn to understand Draconic and Ignan. While in Dragoon Form, you become resistant to fire damage, and vulnerable to cold damage.
+
+```
+```
+
+#### Fire Guard
+At 7th level, when you use the Guard feature, you are also resistant to fire damage. When using the Guard feature in Dragoon Form, you are immune to fire damage.
+
+#### Flame Burst
+Upon reaching 10th level, when you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash an explosion of flames upon the last target you hit. The target takes an immediate extra 2d6 fire damage.
+
+### Jade Dragon
+The Jade dragon is the embodiment of wind. While gentle and protectful, underestimating a strong gust can be deadly. Users of this spirit are often born logical leaders with a strong sense of loyalty. Green or Brass dragons fit into this category.
+
+##### Jade Dragon Form Spells
+| Dragoon Level | Spell |Spirit Cost| Spell Level|
+|:----:|:-------------|:--:|:--:|
+| 3  | Gust of Wind | 3 |2nd|
+| 7  | Wind Wall | 7 |3rd|
+| 10 | Storm Sphere | 10 |4th|
+| 15 | Steel Wind Strike | 15 |6th|
+| 18 | Illusory Dragon (Thunder) | 20 |8th|
+
+##### Cantrips
+In addition, you learn *Gust* and *Mage Hand* as cantrips that you can use even while outside of Dragoon Form.
+
+#### Wind Whisperer
+Also at 3rd level, you learn to understand Draconic and Auran. While in Dragoon Form, you become resistant to thunder damage, and vulnerable to acid and poison damage.
+
+#### Rose Guard
+At 7th level, when you use the Guard feature, enemies that hit you with a melee weapon attack also take 1d6 slashing damage from the storm of roses surrounding you.
+
+#### Air Burst
+Upon reaching 10th level, when you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a concentrated sonic boom upon the last target you hit. The target takes an immediate extra 2d6 thunder damage.
+
+
+\page
+
+<div class='pageNumber'>6</div>
+
+### White-Silver Dragon
+The White-Silver dragon was born of the purest light. Users of this spirit are typically extremely caring and intensely devoted to either their beliefs or family. A Faerie Dragon fits in this category.
+
+##### White-Silver Dragon Form Spells
+| Dragoon Level | Spell |Spirit Cost| Spell Level|
+|:----:|:-------------|:--:|:--:|
+| 3  | Healing Spirit | 3 |2nd|
+| 7  | Moonbeam | 7 |3rd|
+| 10 | Sickening Radiance | 10 |4th|
+| 15 | Heal | 15 |6th|
+| 18 | Illusory Dragon (Radiant) | 20 |8th|
+
+##### Cantrips
+In addition, you learn *Light* and *Spare the Dying* as cantrips that you can use even while outside of Dragoon Form.
+
+#### Light Voiced
+Also at 3rd level, you learn to understand Draconic and Celestial. While in Dragoon Form, you become resistant to radiant damage, and vulnerable to necrotic damage.
+
+#### Radiant Guard
+At 7th level, when you use the Guard feature, you are also resistant to radiant damage. When using the Guard feature in Dragoon Form, you are immune to radiant damage.
+
+#### Light Burst
+Upon reaching 10th level, when you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a flash of searing light upon the last target you hit. The target takes an immediate extra 2d6 radiant damage.
+
+### Dark Dragon
+A dragon born of darkness and far from other life, it is a machine born of death and destruction that seeks to irradicate life as it's opposed nature. Users of this spirit are typical dark brooding loners - the secretive types with dark pasts.  Black or Copper dragons fit into this category.
+
+##### Dark Dragon Form Spells
+| Dragoon Level | Spell |Spirit Cost| Spell Level|
+|:----:|:-------------|:--:|:--:|
+| 3  | Darkness | 3 |2nd|
+| 7  | Vampiric Touch | 7 |3rd|
+| 10 | Blight | 10 |4th|
+| 15 | Circle of Death | 15 |6th|
+| 18 | Illusory Dragon (Necrotic) | 20 |8th|
+
+##### Cantrips
+In addition, you learn *Chill Touch* and *Toll the Dead* as cantrips that you can use even while outside of Dragoon Form.
+
+#### Hushed Darkness
+Also at 3rd level, you learn to understand Draconic and Abyssal. While in Dragoon Form, you become resistant to necrotic damage, and vulnerable to radiant damage.
+
+#### Shadow Guard
+At 7th level, when you use the Guard feature, you are also resistant to necrotic damage. When using the Guard feature in Dragoon Form, you are immune to necrotic damage.
+
+#### Dark Burst
+Upon reaching 10th level, when you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a draw of dark energy upon the last target you hit. The target takes an immediate extra 2d6 necrotic damage.
+
+### Violet Dragon
+The Violet Dragon is said to have been born from the first lightning bolt - coalescing in immense power in the most raw form. The user of this spirit is typically strong in both physical prowess and their indomitable willpower. Blue or Bronze dragons fit into this category.
+
+##### Violet Dragon Form Spells
+| Dragoon Level | Spell |Spirit Cost| Spell Level|
+|:----:|:-------------|:--:|:--:|
+| 3  | Mirror Image | 3 |2nd|
+| 7  | Elemental Weapon (Lightning) | 7 |3rd|
+| 10 | Elemental Bane (Lightning) | 10 |4th|
+| 15 | Chain Lightning | 15 |6th|
+| 18 | Illusory Dragon (Lightning) | 20 |8th|
+
+##### Cantrips
+In addition, you learn *Shocking Grasp* and *Lightning Lure* as cantrips that you can use even while outside of Dragoon Form.
+
+#### Lightning Words
+Also at 3rd level, you learn to understand Draconic and Sylvan. While in Dragoon Form, you become resistant to lightning damage, and vulnerable to psychic damage.
+
+#### Shock Guard
+At 7th level, when you use the Guard feature, you are also resistant to lightning damage. When using the Guard feature in Dragoon Form, you are immune to lightning damage.
+
+#### Elctric Burst
+Upon reaching 10th level, when you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a bolt of lightning upon the last target you hit. The target takes an immediate extra 2d6 lightning damage.
+
+\page
+
+<div class='pageNumber'>7</div>
+
+### Blue-Sea Dragon
+The depths of the ocean are cold and mysterious, and the dragons that live there harness the tidal powers of nature to do their bidding. A user of this spirit is typically very fluid and active, being rather lively and charismatic individuals. White or Silver dragons fit into this category.
+
+##### Blue-Sea Dragon Form Spells
+| Dragoon Level | Spell |Spirit Cost| Spell Level|
+|:----:|:-------------|:--:|:--:|
+| 3  | Ice Knife | 3 |2nd|
+| 7  | Wall of Water | 7 |3rd|
+| 10 | Watery Sphere | 10 |4th|
+| 15 | Freezing Sphere | 15 |6th|
+| 18 | Illusory Dragon (Cold) | 20 |8th|
+
+##### Cantrips
+In addition, you learn *Shape Water* and *Frostbite* as cantrips that you can use even while outside of Dragoon Form.
+
+#### Icicle Tongue
+Also at 3rd level, you learn to understand Draconic and Aquan. While in Dragoon Form, you become resistant to cold damage, and vulnerable to fire damage.
+
+#### Frost Guard
+At 7th level, when you use the Guard feature, you are also resistant to cold damage. When using the Guard feature in Dragoon Form, you are immune to cold damage.
+
+#### Ice Burst
+Upon reaching 10th level, when you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a spike of ice upon the last target you hit. The target takes an immediate extra 2d6 cold damage.
+
+### Golden Dragon
+Unchanging as the land they live on, Golden dragons are more literal with their connection to the shining mineral. Users of this spirit have often been stoic, but incredibly powerful and with the cliche and pun-filled heart of gold. A Dragon Turle fits into this category.
+
+##### Golden Dragon Form Spells
+| Dragoon Level | Spell |Spirit Cost| Spell Level|
+|:----:|:-------------|:--:|:--:|
+| 3  | Dust Devil | 3 |2nd|
+| 7  | Erupting Earth | 7 |3rd|
+| 10 | Stone Shape | 10 |4th|
+| 15 | Bones of the Earth | 15 |6th|
+| 18 | Illusory Dragon (Acid) | 20 |8th|
+
+```
+```
+
+##### Cantrips
+In addition, you learn *Mold Earth* and *Magic Stone* as cantrips that you can use even while outside of Dragoon Form.
+
+#### Earthen Voice
+Also at 3rd level, you learn to understand Draconic and Terran. While in Dragoon Form, you become resistant to acid and poison damage, and vulnerable to thunder damage.
+
+#### Rock Guard
+At 7th level, when you use the Guard feature, you are also resistant to acid and poison damage. When using the Guard feature in Dragoon Form, you are immune to acid and poison damage.
+
+#### Boulder Burst
+Upon reaching 10th level, when you complete every hit of an addition in Dragoon Form, you may spend two spirit points to unleash a boulder upon the last target you hit. The target takes an immediate extra 2d6 magical bludgeoning damage.
