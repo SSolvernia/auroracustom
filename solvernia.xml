@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Solvernia</name>
+		<description>Solvernia Custom Content DnD.</description>
+		<author url="https://github.com/SSolvernia">Solvernia</author>
+		<update version="0.0.1">
+			<file name="solvernia.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/critical-role.index" />
+		</update>
+	</info>
+	<files>
+		<!-- races -->
+		<file name="race-wingly.xml" url="https://raw.githubusercontent.com/SSolvernia/auroracustom/main/race-wingly.xml" />
+		<!-- classes -->
+		<file name="Dragoon.xml" url="https://raw.githubusercontent.com/SSolvernia/auroracustom/main/Dragoon.xml" />
+	</files>
+</index>

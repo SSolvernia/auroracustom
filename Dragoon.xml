@@ -4,8 +4,8 @@
 		<name>Dragoon</name>
 		<description>A legend of dragoon class</description>
 		<author url="">Solvernia</author>
-		<update version="0.0.8">
-			<file name="Dragoon.xml" url="https://raw.githubusercontent.com/SSolvernia/auroracustom/main/Dragoon.xml?token=GHSAT0AAAAAACDAQUB6RHD7DUWT3Q2B3BJYZFYC43A" />
+		<update version="0.0.5">
+			<file name="Dragoon.xml" url="https://raw.githubusercontent.com/SSolvernia/auroracustom/main/Dragoon.xml" />
 		</update>
 	</info>
 	

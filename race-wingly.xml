@@ -4,8 +4,8 @@
         <name>Wingly</name>
         <description>Wingly</description>
         <author>Solvernia</author>
-        <update version="0.0.3">
-            <file name="race-wingly.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/unearthed-arcana/planeshift/ixalan/race-siren.xml" />
+        <update version="0.0.2">
+            <file name="race-wingly.xml" url="https://raw.githubusercontent.com/SSolvernia/auroracustom/main/race-wingly.xml" />
         </update>
     </info>
     
